@@ -46,5 +46,15 @@ let variable1 = `It's my life my rules`;
 console.log(variable1);
 
 let country = `Bangladesh` , a2=10 , b2=5;
-document.getElementById("demo6").innerHTML = `I love ${country} and it is very nice country , which's populatio is ${a2+b2} crore`;
+document.getElementById("demo6").innerHTML = `I love ${country} and it is very nice country , which's population is ${a2+b2} crore`;
 
+let array1 = ["Md","Arif","Baktiar","Nil","Shopnil"];
+for (i=0;i<array1.length;i++)
+{
+    console.log(array1[i]);
+}
+/*function loop(value){
+    document.getElementById("demo7").innerHTML = value;
+
+}
+array1.forEach(loop);*/
