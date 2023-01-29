@@ -53,8 +53,17 @@ for (i=0;i<array1.length;i++)
 {
     console.log(array1[i]);
 }
+array1.splice(2,2,"Lemon","Kiwi");
+console.log(array1);
 /*function loop(value){
     document.getElementById("demo7").innerHTML = value;
 
 }
 array1.forEach(loop);*/
+
+const array2 = [1,2,3,4,5,9,8,7,6];
+array2.sort(function(a,b){
+    //return a-b;          //Assending
+    return b-a  //dessending
+})
+console.log(array2);
