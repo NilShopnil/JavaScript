@@ -67,3 +67,37 @@ array2.sort(function(a,b){
     return b-a  //dessending
 })
 console.log(array2);
+
+const person101 = {fname:"John", lname:"Doe", age:25};
+for(let x in person101){
+    console.log(x);
+    console.log(person101[x]);
+}
+const a12=[5,8,98,51,47,13,59,47];
+for(let x of a12){   //It returns value of index
+    console.log(x);
+}
+for(let x in a12){   //It returns indexNo
+    console.log(x);
+}
+
+try{
+
+}
+
+catch(err){
+
+}
+
+class car{
+    constructor(name,year){
+        this.name=name;
+        this.year=year;
+    }
+    create(){
+        console.log(`${this.name} car is creating of version ${this.year}`);
+    }
+}
+
+const car1 = new car("BMW",2018);
+car1.create();
